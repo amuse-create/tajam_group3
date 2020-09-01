@@ -1,0 +1,51 @@
+a {text-decoration: none;}
+li {list-style-type: none;}
+
+h1, a {font-family: 'Roboto', sans-serif; font-weight: 500; color: #494949;}
+
+#logo {
+    float: left;
+    margin: 10px 0 0 50px;
+    display: flex;
+}
+
+#logo h1 {
+    color: white;
+}
+
+body {
+    background-image: url(images/bgk-header.png);
+}
+
+header nav {
+    float: right;
+    margin: 10px 50px 0 0;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 16px;
+}
+
+a {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: #00e0d0;
+}
+
+#logo:hover {
+    opacity: 0.5;
+}
+
+#home {
+    margin-top: 299px;
+    color: white;
+}
+
+hr {width: 30px; height: 3px; background: #00e0d0; border: 0; margin: 0 auto 40px auto;}
